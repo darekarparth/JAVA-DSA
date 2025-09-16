@@ -1,5 +1,5 @@
 
-public class data_types {
+public class data_types_2 {
     public static void main(String[] args) {
         // Integer Types
         // Byte

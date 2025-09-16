@@ -1,4 +1,4 @@
-public class Type_Casting {
+public class Type_Casting_3 {
     public static void main(String[] args) {
         // Type casting is when you assign a value of one primitive data type to another type.
 
