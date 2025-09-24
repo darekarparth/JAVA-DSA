@@ -81,5 +81,39 @@ public class Arrays_13 {
         } 
         System.out.println(max);
         System.out.println(min);
+
+
+        // Multidimensional Arrays
+        int[][] mynumero = {{1,4,2},{6,3,5}};
+        mynumero[1][1] = 8;
+        System.out.println(mynumero[0][1]);
+        System.out.println(mynumero[1][1]);
+
+
+        int[][] myNumbers = { {1, 4, 2}, {3, 6, 8, 5, 2} };
+        System.out.println("Rows: " + myNumbers.length);             // 2
+        System.out.println("Cols in row 0: " + myNumbers[0].length); // 3
+        System.out.println("Cols in row 1: " + myNumbers[1].length); // 5
+
+        System.err.println("");
+
+        int[][] num = {{1,4,2},{3, 6, 8, 5, 2}};
+        int m;
+        int n;
+        for(m=0; m<num.length; m++){
+            for(n=0; n<num[m].length; n++){
+                System.out.println(num[m][n]);
+            }
+        }
+
+
+        System.out.println("-------");
+        int[][] mynumb = { {1, 4, 2}, {3, 6, 8, 5, 2} };
+        for (int[] row : mynumb) {
+        for (int col : row) {
+            System.out.println(col);
+            }
+        }
+
     }
 }
