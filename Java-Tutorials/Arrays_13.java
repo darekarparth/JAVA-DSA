@@ -110,9 +110,9 @@ public class Arrays_13 {
         System.out.println("-------");
         int[][] mynumb = { {1, 4, 2}, {3, 6, 8, 5, 2} };
         for (int[] row : mynumb) {
-        for (int col : row) {
-            System.out.println(col);
-            }
+            for (int col : row) {
+                System.out.println(col);
+                }
         }
 
     }
